@@ -1,6 +1,16 @@
 :root {
-    
+  
+  --clr-accent-400: hsl(75, 94%, 57%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+
+  --clr-primary-400: hsl(0, 0%, 20%);
+  --clr-primary-700: hsl(0, 0%, 12%);
+  --clr-primary-900: hsl(0, 0%, 8%);
+
 }
+
+
+
 
 /*
   1. Use a more-intuitive box-sizing model.
@@ -14,6 +24,10 @@
   * {
     margin: 0;
   }
+
+  html {
+    height: 100%;
+  }
   /*
     Typographic tweaks!
     3. Add accessible line-height
@@ -22,6 +36,7 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    height: 100%;
   }
   /*
     5. Improve media defaults
@@ -48,6 +63,11 @@
   #root, #__next {
     isolation: isolate;
   }
+
+
+
+
+
 
 
 
