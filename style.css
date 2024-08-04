@@ -7,6 +7,12 @@
   --clr-primary-700: hsl(0, 0%, 12%);
   --clr-primary-900: hsl(0, 0%, 8%);
 
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+
+  --fs-regular: .875rem;
+
 }
 
 
