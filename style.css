@@ -77,43 +77,60 @@ body {
   font-family: 'Inter', sans-serif;
   display: grid;
   place-items: center;
+  text-align: center;
 }
 
 .card {
   background-color: var(--clr-primary-700);
+  padding: 1.5rem;
+  border-radius: .5rem;
 }
 
 img {
   border-radius: 50%;
   max-width: 6.25rem;
+  margin: auto;
+}
+
+figure {
+  padding-bottom: 1.75rem;
 }
 
 .name {
   color: var(--clr-neutral-100);
   font-size: 1.5rem;
   opacity: .8;
+  padding-bottom: .25rem;
 }
 
 .location {
   color: var(--clr-accent-400);
   font-size: var(--fs-regular);
   opacity: .8;
+  padding-bottom: 1.5rem;
 }
 
 .quote {
   color: var(--clr-neutral-100);
-  opacity: .8;
+  opacity: .6;
+  padding-bottom: 1.5rem;
 }
 
-
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 15px
+}
 
 .socials a {
   text-decoration: none;
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-400);
-  border-radius: .25rem;
+  border-radius: .5rem;
   opacity: .8;
-  font-weight: var(--fw-semi-bold);
+  font-weight: var(--fw-bold);
+  padding-top: .75rem;
+  padding-bottom: .75rem;
 }
 
 
