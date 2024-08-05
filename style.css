@@ -70,8 +70,39 @@
     isolation: isolate;
   }
 
+/* General Styling */
 
+body {
+  background-color: var(--clr-primary-900);
+  font-family: 'Inter', sans-serif;
+}
 
+.card {
+  background-color: var(--clr-primary-700);
+}
+
+.name {
+  color: var(--clr-neutral-100);
+  font-size: 1.5rem;
+}
+
+.location {
+  color: var(--clr-accent-400);
+  font-size: var(--fs-regular);
+}
+
+.quote {
+  color: var(--clr-neutral-100);
+}
+
+button {
+  background-color: var(--clr-primary-400);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-neutral-100);
+}
 
 
 
