@@ -75,33 +75,45 @@
 body {
   background-color: var(--clr-primary-900);
   font-family: 'Inter', sans-serif;
+  display: grid;
+  place-items: center;
 }
 
 .card {
   background-color: var(--clr-primary-700);
 }
 
+img {
+  border-radius: 50%;
+  max-width: 6.25rem;
+}
+
 .name {
   color: var(--clr-neutral-100);
   font-size: 1.5rem;
+  opacity: .8;
 }
 
 .location {
   color: var(--clr-accent-400);
   font-size: var(--fs-regular);
+  opacity: .8;
 }
 
 .quote {
   color: var(--clr-neutral-100);
+  opacity: .8;
 }
 
-button {
-  background-color: var(--clr-primary-400);
-}
 
-a {
+
+.socials a {
   text-decoration: none;
   color: var(--clr-neutral-100);
+  background-color: var(--clr-primary-400);
+  border-radius: .25rem;
+  opacity: .8;
+  font-weight: var(--fw-semi-bold);
 }
 
 
@@ -110,6 +122,7 @@ a {
 
 .attribution { 
     font-size: 11px; text-align: center; 
+    color: var(--clr-neutral-100);
 }
 
 .attribution a { 
