@@ -84,6 +84,18 @@ body {
   background-color: var(--clr-primary-700);
   padding: 1.5rem;
   border-radius: .5rem;
+  margin-inline: 1rem;
+  max-width: 720px;
+  margin-inline: 1.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    width: 400px;
+    padding-inline: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
 }
 
 img {
@@ -114,12 +126,20 @@ figure {
   color: var(--clr-neutral-100);
   opacity: .6;
   padding-bottom: 1.5rem;
+  padding-inline: .5rem;
+  font-size: var(--fs-regular);
+}
+
+@media screen and (min-width: 600px) {
+  .quote {
+    padding-inline: 0rem;
+  }
 }
 
 .socials {
   display: flex;
   flex-direction: column;
-  gap: 15px
+  gap: 15px;
 }
 
 .socials a {
@@ -140,6 +160,8 @@ figure {
 .attribution { 
     font-size: 11px; text-align: center; 
     color: var(--clr-neutral-100);
+    position: relative;
+    bottom: 30px;
 }
 
 .attribution a { 
