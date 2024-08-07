@@ -95,7 +95,6 @@ body {
     padding-inline: 2.5rem;
     padding-bottom: 2.5rem;
   }
-
 }
 
 img {
@@ -151,6 +150,11 @@ figure {
   font-weight: var(--fw-bold);
   padding-top: .75rem;
   padding-bottom: .75rem;
+}
+
+.socials a:is(:hover, :focus) {
+  background-color: var(--clr-accent-400);
+  color: black;
 }
 
 
