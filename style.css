@@ -155,6 +155,7 @@ figure {
 .socials a:is(:hover, :focus) {
   background-color: var(--clr-accent-400);
   color: black;
+  cursor: pointer;
 }
 
 
