@@ -154,19 +154,12 @@ figure {
 
 .socials a:is(:hover, :focus) {
   background-color: var(--clr-accent-400);
-  color: black;
-  cursor: pointer;
+  color: black; 
 }
-
-
-
-
 
 .attribution { 
     font-size: 11px; text-align: center; 
     color: var(--clr-neutral-100);
-    position: relative;
-    bottom: 30px;
 }
 
 .attribution a { 
